@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RoomMultiple</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_view">View</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_id">Product ID</string>
+    <string name="product_management_app">Product Management App</string>
+    <string name="btn_products">Products</string>
+    <string name="btn_customers">Customers</string>
+</resources>
