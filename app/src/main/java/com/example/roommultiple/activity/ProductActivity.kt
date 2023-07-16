@@ -13,7 +13,7 @@ import kotlinx.coroutines.withContext
 
 class ProductActivity : AppCompatActivity() {
     private lateinit var binding: ActivityProductBinding
-    private lateinit var appDb:AppDatabase
+    private lateinit var appDb: AppDatabase
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityProductBinding.inflate(layoutInflater)

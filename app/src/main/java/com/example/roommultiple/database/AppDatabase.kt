@@ -16,14 +16,13 @@ import com.example.roommultiple.model.Products
 abstract class AppDatabase:RoomDatabase() {
     abstract fun getProductsDao():ProductsDao
     abstract fun getCustomersDao():CustomersDao
-
     companion object{
         @Volatile
         private  var instance:AppDatabase?=null
-        private val LOCK=Any()
+        private val LOCK = Any()
 
         operator fun invoke(context:Context) = instance?: synchronized(LOCK){
-            instance ?:buildDatabase(context).also {
+            instance ?:buildDatabase(context).also { AppDatabase
                 instance = it
             }
         }
